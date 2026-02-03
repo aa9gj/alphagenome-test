@@ -77,8 +77,6 @@ index_snps_independent_signals.csv
 ld_proxies_union_all_signals.csv
 ld_proxies_union_all_signals_GRCh38.csv
 alphagenome_allGTEx_allOutputs_COLLAPSED.csv
-alphagenome_allGTEx_allOutputs_COLLAPSED_zscores.csv
-qc_modality_counts.csv
 variant_scores_tidy.csv
 snp_prioritization_by_scorer.csv
 snp_prioritization_overall.csv
