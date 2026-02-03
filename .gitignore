@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.key
+api_key.txt
+
+# Genomics data (large files)
+*.bam
+*.bam.bai
+*.cram
+*.sam
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bigwig
+*.bigWig
+*.bw
+*.bed.gz
+*.fa
+*.fa.fai
+*.fasta
+*.fasta.fai
+*.2bit
+
+# HDF5 / large arrays
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# AlphaGenome model weights / cache
+model_weights/
+*.ckpt
+*.ckpt.*
+
+# Large output files
+*.parquet
+*.tfrecord
+*.tfrecords
