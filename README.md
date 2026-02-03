@@ -1,6 +1,6 @@
-# Prioritizing Causal Variants at an Estimated BMD GWAS Locus with AlphaGenome
+# Prioritizing Variants at an Estimated BMD GWAS Locus with AlphaGenome
 
-This repository provides a reproducible pipeline for using [AlphaGenome](https://www.nature.com/articles/s41586-025-10014-0) (Google DeepMind) to prioritize candidate causal variants at the **FHL3** locus on chromosome 1p34.3, a genome-wide significant locus for **estimated bone mineral density (eBMD)** identified by [Morris et al. (2018)](https://doi.org/10.1038/s41588-018-0302-x).
+This repository provides a reproducible pipeline for using [AlphaGenome](https://www.nature.com/articles/s41586-025-10014-0) (Google DeepMind) to prioritize candidate variants on chromosome 1p34.3, a genome-wide significant locus for **estimated bone mineral density (eBMD)** identified by [Morris et al. (2018)](https://doi.org/10.1038/s41588-018-0302-x).
 
 Starting from GWAS summary statistics and a lead SNP, the pipeline identifies LD proxies, lifts coordinates to hg38, runs AlphaGenome variant effect predictions across all GTEx tissues and output modalities, and produces ranked variant prioritization tables suitable for downstream functional follow-up.
 
